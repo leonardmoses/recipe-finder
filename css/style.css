@@ -1,0 +1,28 @@
+header {
+	text-align: center;
+	margin: 2rem;
+}
+
+main {
+	max-width: 300px;
+	margin: auto;
+}
+
+@media only screen and (min-width: 900px) {
+	main {
+		display: flex;
+		max-width: 900px;
+		margin: auto;
+	}
+
+	img {
+		max-width: 100%;
+		align-self: center;
+	}
+
+	.recipeInfo {
+		border: 1px dashed #252525;
+		margin: 0 1rem;
+		padding: 1rem;
+	}
+}
